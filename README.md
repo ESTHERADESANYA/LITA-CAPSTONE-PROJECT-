@@ -8,10 +8,10 @@ CUSTOMER SEGMENTATION FOR SUBSCRIPTION SERVICE
 ### PROJECT OBJECTIVES:
 - Analyze customer data using pivot tables to find subscription patterns.
 - Calculate the average subscription duration.
-- Identify the most popular subscription types.
+= Identify the most popular subscription types.
 
 ### Data PROFILE:
-The  Customer datasets includes the following fields:
+The Customer datasets includes the following fields:
  - CustomerID: Unique identifier for each transaction.
  - Customer Name: Name of a customer.
 -  Region: geographical area or location associated with a customer (North,East,South,West)
@@ -37,14 +37,16 @@ The dataset for the analysis was provided by LITA Incubator Hub.
 - Removed duplicates using remove Duplicates feature.
 - Changed data types using the data type feature.
 - Checked for data consistency using the column quality, column profile, and column distribution.
- -Data visualization: created Power BI dashboard that visualizes key customer segments, cancellations, and subscription trends. I utilized slicers for interactive analysis.
+- Data visualization: created Power BI dashboard that visualizes key customer segments, cancellations, and subscription trends. I utilized slicers for interactive analysis.
 (e.g, charts, cards,tables).
 SQL
 
 ### DATA TOOLS:
-Microsoft Excel: Data analysis and manipulation
-SQL Server: Data storage and quering 
-Power BI: Data visualization and creating interesting reports.
+Microsoft Excel: Data analysis, manipulation and visualization. [Download Here](https://www.microsoft.com)
+- SQL Server: Data storage and quering 
+- Power BI: Data visualization and creating interesting reports.
+- Gifthub for building portfolio
 
 ### DATA VISUALIZATION
+
 
