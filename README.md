@@ -31,7 +31,6 @@ The Customer datasets includes the following fields:
 ### Data Collection
 ```
 The dataset for the analysis was provided by LITA Incubator Hub.
-### Data Manipulation
 1. Data Cleaning and Analysis on Excel:
    1. Data loading and inspection
    2. Checked for Null values and removed duplicates by highligting and using the remove duplicates features.
@@ -54,7 +53,8 @@ Microsoft Excel: Data analysis, manipulation and visualization. [Download Here](
 - Power BI: Data visualization and creating interesting reports.
 - Gifthub for building portfolio
 ```
-### SQL
+### SQL QUERIES
+```
 create database Customer_Data_Capstone
 --- 1 retrieve the total numbers from each region
 select * from [dbo].[Customer_Dataset]
@@ -114,13 +114,10 @@ Select
 Sum(Case When Canceled = 0 Then 1 Else 0 End) as ActiveSubscriptions,
 Sum(Case When Canceled = 0 Then 1 Else 0 End) as CanceledSubscriptions
 From [dbo].[Customer_Dataset]
-
+```
 
 ### DATA VISUALIZATION
 ![customer segment data (2)](https://github.com/user-attachments/assets/0db78788-48ae-4dc2-83f0-bb1e2250e3f0)
 ![customer segment data](https://github.com/user-attachments/assets/fce289b4-3368-4c17-8536-752686eed4f1)
 ![20241105_152310](https://github.com/user-attachments/assets/83332d68-2252-4f9e-ae0a-88abd6a8aea9)
 
-
-
-``
