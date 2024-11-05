@@ -54,6 +54,67 @@ Microsoft Excel: Data analysis, manipulation and visualization. [Download Here](
 - Power BI: Data visualization and creating interesting reports.
 - Gifthub for building portfolio
 ```
+### SQL
+create database Customer_Data_Capstone
+--- 1 retrieve the total numbers from each region
+select * from [dbo].[Customer_Dataset]
+Select Region,
+Count(CustomerID) as Totalcustomers from [dbo].[Customer_Dataset]
+Group by region
+Order by TotalCustomers DESC
+
+--- 2 find the most popular subscription type by the number of customers
+select  subscriptiontype,
+count(customerid) as numberofcustomers
+from [dbo].[Customer_Dataset]
+group by subscriptiontype
+order by numberofcustomers desc 
+
+----3 find customers who canceled their subscription within 6 months
+Select CustomerID,CustomerName, SubscriptionType,
+SubscriptionStart, SubscriptionEnd,
+DATEDIFF(Month, SubscriptionStart,SubscriptionEnd) as SubscriptionDuration
+From [dbo].[Customer_Dataset]
+Where canceled = 1 and DATEDIFF(Month,SubscriptionStart,SubscriptionEnd)<=6
+Order by SubscriptionDuration ASC
+
+---- 4 Calculate the Average subscription duration for all customers
+Select Avg(DATEDIFF(Month, SubscriptionStart,SubscriptionEnd)) 
+as AverageSubscriptionDuration
+From [dbo].[Customer_Dataset]
+Where canceled = 1 
+Select * From [dbo].[Customer_Dataset]
+
+--- 5 calculate the average subscriptionduration for all customer
+Select CustomerID, CustomerName,SubscriptionType,
+SubscriptionStart, SubscriptionEnd,
+DATEDIFF(Month,SubscriptionStart,SubscriptionEnd) as SubscriptiononDuration
+From [dbo].[Customer_Dataset]
+where DATEDIFF(Month,SubscriptionStart,SubscriptionEnd) > 12 
+Order by SubscriptiononDuration Desc
+
+
+---6 calculate total revenue by subscription type
+Select SubscriptionType,
+Sum(Revenue )as Total_Revenue 
+From [dbo].[Customer_Dataset]
+Group by SubscriptionType
+Order by Total_Revenue Desc
+
+----7 FIND Top 3 categories byu subscription cancellation
+Select Top 3 SubscriptionType,
+Count(CustomerID)as CancellationsCount
+From  [dbo].[Customer_Dataset]
+Where Canceled = 1
+Group by SubscriptionType
+Order by CancellationsCount desc 
+
+--- 8 find the total number of active and canceled subscription
+Select
+Sum(Case When Canceled = 0 Then 1 Else 0 End) as ActiveSubscriptions,
+Sum(Case When Canceled = 0 Then 1 Else 0 End) as CanceledSubscriptions
+From [dbo].[Customer_Dataset]
+
 
 ### DATA VISUALIZATION
 ![customer segment data (2)](https://github.com/user-attachments/assets/0db78788-48ae-4dc2-83f0-bb1e2250e3f0)
