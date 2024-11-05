@@ -2,15 +2,19 @@
 This repository contains the documentation for the Lita Capstone Project, This project involves analyzing customer data for a subscription service to identify segments and trends. The goal is to understand customer behavior, track subscription types, and identify key trends in cancellations and renewals.
 
 ### PROJECT TITLE:
+```
 CUSTOMER SEGMENTATION FOR SUBSCRIPTION SERVICE
-
+```
 ### PROJECT SCOPE:
+
 ### PROJECT OBJECTIVES:
+```
 - Analyze customer data using pivot tables to find subscription patterns.
 - Calculate the average subscription duration.
 = Identify the most popular subscription types.
-
+```
 ### Data PROFILE:
+```
 The Customer datasets includes the following fields:
  - CustomerID: Unique identifier for each transaction.
  - Customer Name: Name of a customer.
@@ -21,9 +25,11 @@ The Customer datasets includes the following fields:
  - Canceled: This is the status of a subscription, service that has been intentionally terminated before the end of its active period
  - Revenue: The total income earned typically from services
  - Average Subscription Duration: The typical length of time that customers remain subscribed to a service before canceling, or switching payments
-
+```
 ### METHODOLOGY:
+
 ### Data Collection
+```
 The dataset for the analysis was provided by LITA Incubator Hub.
 ### Data Manipulation
 1. Data Cleaning and Analysis on Excel:
@@ -40,12 +46,14 @@ The dataset for the analysis was provided by LITA Incubator Hub.
 - Data visualization: created Power BI dashboard that visualizes key customer segments, cancellations, and subscription trends. I utilized slicers for interactive analysis.
 (e.g, charts, cards,tables).
 SQL
-
+```
 ### DATA TOOLS:
+```
 Microsoft Excel: Data analysis, manipulation and visualization. [Download Here](https://www.microsoft.com)
 - SQL Server: Data storage and quering 
 - Power BI: Data visualization and creating interesting reports.
 - Gifthub for building portfolio
+```
 
 ### DATA VISUALIZATION
 ![customer segment data (2)](https://github.com/user-attachments/assets/0db78788-48ae-4dc2-83f0-bb1e2250e3f0)
@@ -54,3 +62,4 @@ Microsoft Excel: Data analysis, manipulation and visualization. [Download Here](
 
 
 
+``
