@@ -31,6 +31,8 @@ The Customer datasets includes the following fields:
 ### Data Collection
 ```
 The dataset for the analysis was provided by LITA Incubator Hub.
+```
+EXPLORATORY DATA ANALYSIS (EDA)
 1. Data Cleaning and Analysis on Excel:
    1. Data loading and inspection
    2. Checked for Null values and removed duplicates by highligting and using the remove duplicates features.
@@ -44,6 +46,10 @@ The dataset for the analysis was provided by LITA Incubator Hub.
 - Checked for data consistency using the column quality, column profile, and column distribution.
 - Data visualization: created Power BI dashboard that visualizes key customer segments, cancellations, and subscription trends. I utilized slicers for interactive analysis.
 (e.g, charts, cards,tables).
+  3. FUNCTIONS
+   Calculate the average subscription duration and identify the most popular subscription types.
+
+
 SQL
 ```
 ### DATA TOOLS:
