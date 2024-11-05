@@ -5,4 +5,21 @@ This repository contains the documentation for the Lita Capstone Project, This p
 CUSTOMER SEGMENTATION FOR SUBSCRIPTION SERVICE
 
 ### PROJECT OBJECTIVES:
-Analyze customer to identify patterns and trends.
+Analyze customer data using pivot tables to find subscription patterns.
+Calculate the average subscription duration.
+Identify the most popular subscription types.
+
+### PROJECT SCOPE:
+Customers data from January 2022 to August 2023 for Subscription Start
+Customers data from January 2023 to August 2024 for Subscription End
+The Customer Datasets include: CustomerID, Customer Name, Region, Subscription Type, Subscription Start, Subscription End, Canceled, Revenue and Average Subscription Duration.
+
+### DATA TOOLS:
+Microsoft Excel: Data analysis and manipulation
+SQL Server: Data storage and quering 
+Power BI: Data visualization and creating interesting reports.
+
+### METHODOLOGY:
+Power BI dashboard that visualizes key customer segments,
+cancellations, and subscription trends. Include slicers for interactive analysis.
+
