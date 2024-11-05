@@ -48,5 +48,9 @@ Microsoft Excel: Data analysis, manipulation and visualization. [Download Here](
 - Gifthub for building portfolio
 
 ### DATA VISUALIZATION
+![customer segment data (2)](https://github.com/user-attachments/assets/0db78788-48ae-4dc2-83f0-bb1e2250e3f0)
+![customer segment data](https://github.com/user-attachments/assets/fce289b4-3368-4c17-8536-752686eed4f1)
+![20241105_152310](https://github.com/user-attachments/assets/83332d68-2252-4f9e-ae0a-88abd6a8aea9)
+
 
 
