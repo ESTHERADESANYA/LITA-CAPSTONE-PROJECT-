@@ -11,23 +11,35 @@ Calculate the average subscription duration.
 Identify the most popular subscription types.
 
 ### Data PROFILE  :
+The  Customer datasets includes the following fields:
+ CustomerID: Unique identifier for each transaction.
+ Customer Name: Name of a customer.
+ Region:  geographical area or location associated with a customer
+ Subscription Type:It involves different levels of service with customers choosing a plan (Basic, Premium,standard)
+ Subscription Start: The Customers subscription started from January 2022 to August 2023.
+ Subscription End: Customers Subscription End data from January 2023 to August 2024.
+ Canceled: This is the status of a subscription, service that has been intentionally terminated before the end of its active period
+ Revenue: The total income earned typically from services
+ Average Subscription Duration:T he typical length of time that customers remain subscribed to a service before canceling, or switching payments
 
-Customers data from January 2022 to August 2023 for Subscription Start
-Customers data from January 2023 to August 2024 for Subscription End
-The Customer Datasets include: CustomerID, Customer Name, Region, Subscription Type, Subscription Start, Subscription End, Canceled, Revenue and Average Subscription Duration.
+### METHODOLOGY:
+### Data Collection
+The dataset for the analysis was provided by LITA Incubator Hub.
+### Data Manipulation
+Data Cleaning and Analysis on Excel:Checked for Null values, Removed duplicates by highligting and using the remove duplicates features, utilized Pivot tables to summarize data, Filter to improve data visualization and enhance insights, Charts to visualize trends and pattern, Slicer for interactive filtering.
+Data Cleaning and Transformation on PowerBI: 
+Used power query editor to clean and transform data.
+Removed duplicates using remove Duplicates feature.
+Changed data types using the data type feature.
+Checked for data consistency using the column quality, column profile, and column distribution.
+Data visualization: created Power BI dashboard that visualizes key customer segments, cancellations, and subscription trends. I utilized slicers for interactive analysis.
+(e.g, charts, cards,tables).
+SQL
 
 ### DATA TOOLS:
 Microsoft Excel: Data analysis and manipulation
 SQL Server: Data storage and quering 
 Power BI: Data visualization and creating interesting reports.
 
-### METHODOLOGY:
-Data Cleaning and Analysis on Excel: I removed duplicates by highligting and using the remove duplicates features, utilized Pivot tables to summarize data, Filter to improve data visualization and enhance insights, Charts to visualize trends and pattern, Slicer for interactive filtering.
-Data Cleaning and Transformation on PowerBI: 
-I used power query editor to clean and transform data.
-i removed duplicates using remove Duplicates feature.
-i changed data types using the data type feature.
-I checked for data consistency using the column quality, column profile, and column distribution.
-Data visualization: created Power BI dashboard that visualizes key customer segments, cancellations, and subscription trends. I utilized slicers for interactive analysis.
-(e.g, charts, cards,tables).
-SQL
+### DASHB
+
