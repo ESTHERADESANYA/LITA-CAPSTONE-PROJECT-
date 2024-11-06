@@ -60,10 +60,10 @@ The dataset for the analysis was provided by LITA Incubator Hub.`
 
 ### METHODOLOGY
 ### EXPLORATORY DATA ANALYSIS (EDA)
+```
 EDA is the first step in data analysis to understand its main characteristics
 I worked on 33787 rows and 8 Columns
-
-### DATA MANIPULATION
+DATA MANIPULATION
 1. Data Cleaning and Analysis on Excel:
    1. Data loading and inspection
    2. Checked for Null values and removed duplicates by highligting and using the remove duplicates features.
@@ -78,6 +78,7 @@ I worked on 33787 rows and 8 Columns
 - Checked for data consistency using the column quality, column profile, and column distribution.
 - Data visualization: created Power BI dashboard that visualizes key customer segments, cancellations, and subscription trends.
 - I utilized slicers for interactive analysis.(e.g, charts, cards,tables).
+```
 
 ### SQL QUERIES
 ```
@@ -162,7 +163,10 @@ SUBSCRIPTION TYPE BY SUM OF REVENUE
 Basic accounts for about 49.9% of the total revenue.
 Premium and Standard each contribute about 25.0% to the total revenue
 
+```
 ### CONCLUSION
+```
+``
 
 ###RECOMMENDATION
-
+```
