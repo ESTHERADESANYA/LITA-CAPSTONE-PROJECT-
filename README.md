@@ -35,7 +35,7 @@ Microsoft Excel: Data analysis, manipulation and visualization. [Download Here](
 - Gifthub for building portfolio
 ```
 
-### Data PROFILE:
+ ### Data PROFILE:
 ```
 The Customer datasets includes the following fields:
  - CustomerID: Unique identifier for each transaction.
@@ -56,13 +56,14 @@ The Customer datasets includes the following fields:
 ### Data Collection
 ```
 The dataset for the analysis was provided by LITA Incubator Hub.`
-``
-
-### METHODOLOGY:
 ```
-EXPLORATORY DATA ANALYSIS (EDA)
+
+### METHODOLOGY
+### EXPLORATORY DATA ANALYSIS (EDA)
 EDA is the first step in data analysis to understand its main characteristics
 I worked on 33787 rows and 8 Columns
+
+### DATA MANIPULATION
 1. Data Cleaning and Analysis on Excel:
    1. Data loading and inspection
    2. Checked for Null values and removed duplicates by highligting and using the remove duplicates features.
@@ -71,9 +72,16 @@ I worked on 33787 rows and 8 Columns
    FUNCTIONS
    Calculate the average subscription duration and identify the most popular subscription types.
 
+2. Data Cleaning and Transformation on PowerBI: 
+- Removed duplicates using remove Duplicates feature.
+- Changed data types using the data type feature.
+- Checked for data consistency using the column quality, column profile, and column distribution.
+- Data visualization: created Power BI dashboard that visualizes key customer segments, cancellations, and subscription trends.
+- I utilized slicers for interactive analysis.(e.g, charts, cards,tables).
+
 ### SQL QUERIES
 ```
-= The cleaned data from Excel was saved as CSV files and then imported into the SQL Database System.
+- The cleaned data from Excel was saved as CSV files and then imported into the SQL Database System.
 - I carried out my queries using DAX expressions, SQL Clauses and Data Query Language
 - create database Customer_Data_Capstone
 - --- 1 retrieve the total numbers from each region
@@ -136,25 +144,23 @@ Sum(Case When Canceled = 0 Then 1 Else 0 End) as CanceledSubscriptions
 From [dbo].[Customer_Dataset]
 ```
 
- Data Cleaning and Transformation on PowerBI: 
-- Used power query editor to clean and transform data.
-- Removed duplicates using remove Duplicates feature.
-- Changed data types using the data type feature.
-- Checked for data consistency using the column quality, column profile, and column distribution.
-- Data visualization: created Power BI dashboard that visualizes key customer segments, cancellations, and subscription trends. I utilized slicers for interactive analysis.
-(e.g, charts, cards,tables).
+
   3. FUNCTIONS
    Calculate the average subscription duration and identify the most popular subscription types.
 
 ```
 
-### DATA VISUALIZATION
+### DASHBOARD OVERVIEW
 ![customer segment data (2)](https://github.com/user-attachments/assets/0db78788-48ae-4dc2-83f0-bb1e2250e3f0)
 ![customer segment data](https://github.com/user-attachments/assets/fce289b4-3368-4c17-8536-752686eed4f1)
 ![20241105_152310](https://github.com/user-attachments/assets/83332d68-2252-4f9e-ae0a-88abd6a8aea9)
 
-### RESULTS
+### DATA ANALYSIS AND INSIGHT GENERATION
 SUBSCRIPTION TYPE BY SUM OF REVENUE
 Basic accounts for about 49.9% of the total revenue.
 Premium and Standard each contribute about 25.0% to the total revenue
+
+### CONCLUSION
+
+###RECOMMENDATION
 
