@@ -21,15 +21,15 @@ track subscription types, and identify key trends in cancellations and renewals.
 
 ### PROJECT OBJECTIVES:
 ```
-- Analyze customer data using pivot tables to
-  find subscription patterns.
+Analyze customer data using pivot tables to
+- find subscription patterns.
 - Calculate the average subscription duration.
-= Identify the most popular subscription types.
+- Identify the most popular subscription types.
 ```
 
 ### DATA TOOLS:
 ```
-Microsoft Excel: Data analysis, manipulation and visualization. [Download Here](https://www.microsoft.com)
+Microsoft Excel: Data analysis, manipulation and visualization.(https://www.microsoft.com)[Download Here]
 - SQL Server: Data storage and quering 
 - Power BI: Data visualization and creating interesting reports.
 - Gifthub for building portfolio
@@ -151,11 +151,13 @@ From [dbo].[Customer_Dataset]
 ```
 
 ### DASHBOARD OVERVIEW
+```
 ![customer segment data (2)](https://github.com/user-attachments/assets/0db78788-48ae-4dc2-83f0-bb1e2250e3f0)
 ![customer segment data](https://github.com/user-attachments/assets/fce289b4-3368-4c17-8536-752686eed4f1)
 ![20241105_152310](https://github.com/user-attachments/assets/83332d68-2252-4f9e-ae0a-88abd6a8aea9)
 
 ### DATA ANALYSIS AND INSIGHT GENERATION
+```
 SUBSCRIPTION TYPE BY SUM OF REVENUE
 Basic accounts for about 49.9% of the total revenue.
 Premium and Standard each contribute about 25.0% to the total revenue
