@@ -73,6 +73,8 @@ I worked on 33787 rows and 8 Columns
 
 ### SQL QUERIES
 ```
+= The cleaned data from Excel was saved as CSV files and then imported into the SQL Database System.
+- I carried out my queries using DAX expressions, SQL Clauses and Data Query Language
 - create database Customer_Data_Capstone
 - --- 1 retrieve the total numbers from each region
 select * from [dbo].[Customer_Dataset]
@@ -134,9 +136,7 @@ Sum(Case When Canceled = 0 Then 1 Else 0 End) as CanceledSubscriptions
 From [dbo].[Customer_Dataset]
 ```
 
-
-  
-2. Data Cleaning and Transformation on PowerBI: 
+ Data Cleaning and Transformation on PowerBI: 
 - Used power query editor to clean and transform data.
 - Removed duplicates using remove Duplicates feature.
 - Changed data types using the data type feature.
