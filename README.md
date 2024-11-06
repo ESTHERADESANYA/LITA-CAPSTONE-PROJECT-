@@ -1,6 +1,8 @@
 # LITA-CAPSTONE-PROJECT-||
 This repository contains the documentation for the Lita Capstone Project, This project involves analyzing customer data for a subscription service to identify segments and trends. The goal is to understand customer behavior, track subscription types, and identify key trends in cancellations and renewals.
 
+[PROJECT OUTLINE](###PROJECT-OUTLINE)
+
 ### PROJECT TITLE:
 ```
 CUSTOMER SEGMENTATION FOR SUBSCRIPTION SERVICE
@@ -61,22 +63,22 @@ Microsoft Excel: Data analysis, manipulation and visualization. [Download Here](
 ```
 ### SQL QUERIES
 ```
-create database Customer_Data_Capstone
---- 1 retrieve the total numbers from each region
+- create database Customer_Data_Capstone
+- --- 1 retrieve the total numbers from each region
 select * from [dbo].[Customer_Dataset]
 Select Region,
 Count(CustomerID) as Totalcustomers from [dbo].[Customer_Dataset]
 Group by region
 Order by TotalCustomers DESC
 
---- 2 find the most popular subscription type by the number of customers
+- --- 2 find the most popular subscription type by the number of customers
 select  subscriptiontype,
 count(customerid) as numberofcustomers
 from [dbo].[Customer_Dataset]
 group by subscriptiontype
 order by numberofcustomers desc 
 
-----3 find customers who canceled their subscription within 6 months
+- ----3 find customers who canceled their subscription within 6 months
 Select CustomerID,CustomerName, SubscriptionType,
 SubscriptionStart, SubscriptionEnd,
 DATEDIFF(Month, SubscriptionStart,SubscriptionEnd) as SubscriptionDuration
@@ -84,14 +86,14 @@ From [dbo].[Customer_Dataset]
 Where canceled = 1 and DATEDIFF(Month,SubscriptionStart,SubscriptionEnd)<=6
 Order by SubscriptionDuration ASC
 
----- 4 Calculate the Average subscription duration for all customers
+- ---- 4 Calculate the Average subscription duration for all customers
 Select Avg(DATEDIFF(Month, SubscriptionStart,SubscriptionEnd)) 
 as AverageSubscriptionDuration
 From [dbo].[Customer_Dataset]
 Where canceled = 1 
 Select * From [dbo].[Customer_Dataset]
 
---- 5 calculate the average subscriptionduration for all customer
+- --- 5 calculate the average subscriptionduration for all customer
 Select CustomerID, CustomerName,SubscriptionType,
 SubscriptionStart, SubscriptionEnd,
 DATEDIFF(Month,SubscriptionStart,SubscriptionEnd) as SubscriptiononDuration
@@ -100,14 +102,14 @@ where DATEDIFF(Month,SubscriptionStart,SubscriptionEnd) > 12
 Order by SubscriptiononDuration Desc
 
 
----6 calculate total revenue by subscription type
+- ---6 calculate total revenue by subscription type
 Select SubscriptionType,
 Sum(Revenue )as Total_Revenue 
 From [dbo].[Customer_Dataset]
 Group by SubscriptionType
 Order by Total_Revenue Desc
 
-----7 FIND Top 3 categories byu subscription cancellation
+- ----7 FIND Top 3 categories byu subscription cancellation
 Select Top 3 SubscriptionType,
 Count(CustomerID)as CancellationsCount
 From  [dbo].[Customer_Dataset]
@@ -115,7 +117,7 @@ Where Canceled = 1
 Group by SubscriptionType
 Order by CancellationsCount desc 
 
---- 8 find the total number of active and canceled subscription
+- --- 8 find the total number of active and canceled subscription
 Select
 Sum(Case When Canceled = 0 Then 1 Else 0 End) as ActiveSubscriptions,
 Sum(Case When Canceled = 0 Then 1 Else 0 End) as CanceledSubscriptions
@@ -126,4 +128,9 @@ From [dbo].[Customer_Dataset]
 ![customer segment data (2)](https://github.com/user-attachments/assets/0db78788-48ae-4dc2-83f0-bb1e2250e3f0)
 ![customer segment data](https://github.com/user-attachments/assets/fce289b4-3368-4c17-8536-752686eed4f1)
 ![20241105_152310](https://github.com/user-attachments/assets/83332d68-2252-4f9e-ae0a-88abd6a8aea9)
+
+### RESULTS
+SUBSCRIPTION TYPE BY SUM OF REVENUE
+Basic accounts for about 49.9% of the total revenue.
+Premium and Standard each contribute about 25.0% to the total revenue
 
