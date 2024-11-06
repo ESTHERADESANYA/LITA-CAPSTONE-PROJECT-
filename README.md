@@ -1,7 +1,7 @@
 # LITA-CAPSTONE-PROJECT-||
+### PROJECT TITLE: CUSTOMER SEGMENTATION FOR SUBSCRIPTION SERVICE
 - [PROJECT OUTLINE](###PROJECT-OUTLINE)
 - [PROJECT OVERVIEW](###PROJECT-OVERVIEW)
-- [PROJECT TITLE](###PROJECT-TITLE)
 - [PROJECT OBJECTIVES](###PROJECT-OBJECTIVES)
 - [DATA TOOLS](###DATA-TOOLS)
 - [Data PROFILE](###Data-PROFILE)
@@ -12,15 +12,11 @@
 - [RESULT](###RESULT)
 
 ### PROJECT OVERVIEW
+```
 This repository contains the documentation for the Lita Capstone Project, 
 This project involves analyzing customer data for a subscription service
 to identify segments and trends. The goal is to understand customer behavior
-, track subscription types, and identify key trends in cancellations and renewals.
-
-
-### PROJECT TITLE:
-```
-CUSTOMER SEGMENTATION FOR SUBSCRIPTION SERVICE
+track subscription types, and identify key trends in cancellations and renewals.
 ```
 
 ### PROJECT OBJECTIVES:
@@ -30,12 +26,15 @@ CUSTOMER SEGMENTATION FOR SUBSCRIPTION SERVICE
 - Calculate the average subscription duration.
 = Identify the most popular subscription types.
 ```
+
 ### DATA TOOLS:
 ```
 Microsoft Excel: Data analysis, manipulation and visualization. [Download Here](https://www.microsoft.com)
 - SQL Server: Data storage and quering 
 - Power BI: Data visualization and creating interesting reports.
 - Gifthub for building portfolio
+```
+
 ### Data PROFILE:
 ```
 The Customer datasets includes the following fields:
@@ -53,10 +52,12 @@ The Customer datasets includes the following fields:
  - Subscription Duration: This indicates the typical length of time that customers
    remain subscribed to a service before canceling, or switching payments
 ```
+
 ### Data Collection
 ```
 The dataset for the analysis was provided by LITA Incubator Hub.`
 ``
+
 ### METHODOLOGY:
 ```
 EXPLORATORY DATA ANALYSIS (EDA)
@@ -67,18 +68,9 @@ I worked on 33787 rows and 8 Columns
    2. Checked for Null values and removed duplicates by highligting and using the remove duplicates features.
    3. Utilized Pivot tables to summarize data.
    4. Charts to visualize trends and pattern, Slicer for interactive filtering.
-       
-2. Data Cleaning and Transformation on PowerBI: 
-- Used power query editor to clean and transform data.
-- Removed duplicates using remove Duplicates feature.
-- Changed data types using the data type feature.
-- Checked for data consistency using the column quality, column profile, and column distribution.
-- Data visualization: created Power BI dashboard that visualizes key customer segments, cancellations, and subscription trends. I utilized slicers for interactive analysis.
-(e.g, charts, cards,tables).
-  3. FUNCTIONS
+   FUNCTIONS
    Calculate the average subscription duration and identify the most popular subscription types.
 
-```
 ### SQL QUERIES
 ```
 - create database Customer_Data_Capstone
@@ -140,6 +132,20 @@ Select
 Sum(Case When Canceled = 0 Then 1 Else 0 End) as ActiveSubscriptions,
 Sum(Case When Canceled = 0 Then 1 Else 0 End) as CanceledSubscriptions
 From [dbo].[Customer_Dataset]
+```
+
+
+  
+2. Data Cleaning and Transformation on PowerBI: 
+- Used power query editor to clean and transform data.
+- Removed duplicates using remove Duplicates feature.
+- Changed data types using the data type feature.
+- Checked for data consistency using the column quality, column profile, and column distribution.
+- Data visualization: created Power BI dashboard that visualizes key customer segments, cancellations, and subscription trends. I utilized slicers for interactive analysis.
+(e.g, charts, cards,tables).
+  3. FUNCTIONS
+   Calculate the average subscription duration and identify the most popular subscription types.
+
 ```
 
 ### DATA VISUALIZATION
