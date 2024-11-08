@@ -154,9 +154,13 @@ From [dbo].[Customer_Dataset]
 ### DASHBOARD OVERVIEW
 ```
 EXCEL VISUALIZATION
-![customer segment data (2)](https://github.com/user-attachments/assets/0db78788-48ae-4dc2-83f0-bb1e2250e3f0)
-![customer segment data](https://github.com/user-attachments/assets/fce289b4-3368-4c17-8536-752686eed4f1)
-![20241105_152310](https://github.com/user-attachments/assets/83332d68-2252-4f9e-ae0a-88abd6a8aea9)
+PIVOT TABLES
+![20241105_152242](https://github.com/user-attachments/assets/675b18f9-636e-4b4a-9f36-94560eb62560)
+
+CHARTS
+![20241105_151511](https://github.com/user-attachments/assets/06b58c59-9f36-4842-b5c8-745881a7b7b3)
+![20241105_151618](https://github.com/user-attachments/assets/434397f1-96ca-4b45-b29e-7c69d44d883f)
+
 
 SQL RESULTS
 ![20241108_012325](https://github.com/user-attachments/assets/d47f9847-944a-4f29-b795-1587a56945fc)
