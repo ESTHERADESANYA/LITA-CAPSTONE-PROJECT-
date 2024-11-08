@@ -171,6 +171,8 @@ SQL RESULTS
 ![20241108_013323](https://github.com/user-attachments/assets/f2c6f3fb-5ed2-44d7-acce-8854ca6455f2)
 ![20241108_013524](https://github.com/user-attachments/assets/109c69cd-f753-4d02-9bd0-0e3bcda0f587)
 
+POWER BI
+![IMG-20241106-WA0008](https://github.com/user-attachments/assets/8b1ccb94-e18c-41c0-bef0-30c655bda24a)
 
 ### DATA ANALYSIS AND INSIGHT GENERATION
 ```
