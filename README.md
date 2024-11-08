@@ -153,9 +153,20 @@ From [dbo].[Customer_Dataset]
 
 ### DASHBOARD OVERVIEW
 ```
+EXCEL VISUALIZATION
 ![customer segment data (2)](https://github.com/user-attachments/assets/0db78788-48ae-4dc2-83f0-bb1e2250e3f0)
 ![customer segment data](https://github.com/user-attachments/assets/fce289b4-3368-4c17-8536-752686eed4f1)
 ![20241105_152310](https://github.com/user-attachments/assets/83332d68-2252-4f9e-ae0a-88abd6a8aea9)
+
+SQL RESULTS
+![20241108_012325](https://github.com/user-attachments/assets/d47f9847-944a-4f29-b795-1587a56945fc)
+![20241108_012451](https://github.com/user-attachments/assets/0f757757-2dab-4ec8-aa3c-4aca931448ff)
+![20241108_012625](https://github.com/user-attachments/assets/3172aa9d-5dad-4d67-8df2-70c5a2663982)
+![20241108_012724](https://github.com/user-attachments/assets/4bd07add-e6d8-4e84-89b3-0bfb61329647)
+![20241108_012819](https://github.com/user-attachments/assets/a4e725ab-88bd-4201-8fe2-79f55a049c24)
+![20241108_013323](https://github.com/user-attachments/assets/f2c6f3fb-5ed2-44d7-acce-8854ca6455f2)
+![20241108_013524](https://github.com/user-attachments/assets/109c69cd-f753-4d02-9bd0-0e3bcda0f587)
+
 
 ### DATA ANALYSIS AND INSIGHT GENERATION
 ```
