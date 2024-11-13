@@ -176,14 +176,28 @@ POWER BI
 
 ### DATA ANALYSIS AND INSIGHT GENERATION
 ```
-SUBSCRIPTION TYPE BY SUM OF REVENUE
+- SUBSCRIPTION TYPE BY SUM OF REVENUE
 Basic accounts for about 49.9% of the total revenue.
 Premium and Standard each contribute about 25.0% to the total revenue
 
+- REGION BY TOTAL REVENUE
+Each region has a relatively balanced share of the total revenue, with the
+differences between them being quite small (ranging from 16.8M to 16.9M).
+This suggests that while the regions are contributing similarly,
+there is no dominant regional performance or major disparity in sales.
 ```
 ### CONCLUSION
 ```
-``
+Basic Subscription accounts for 49.9% of total revenue, making it the dominant revenue stream.
+This suggests that a large portion of customerS base opts for the Basic plan, indicating its affordability or broad appeal.
+Premium and Standard Subscriptions each contribute 25.0% of the total revenue.
+These subscription types likely appeal to different segments of the customer base,
+with Premium attracting higher-paying users, and Standard serving as a middle ground between Basic and Premium.
+
+Balanced Revenue Distribution: The revenue distribution across regions is fairly even,
+which is a positive indicator of market penetration across all areas. There is no single
+region that outperforms others by a large margin, meaning that each region is generating substantial revenue.
 
 ###RECOMMENDATION
 ```
+Opportunities for Growth: Despite the balanced revenue, there could be opportunities to optimize regional strategies to increase market share and drive further growth in each region. For instance, localized marketing campaigns or product offerings tailored to specific regional preferences could help boost sales in areas with slightly lower performance.
