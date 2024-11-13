@@ -145,34 +145,33 @@ Sum(Case When Canceled = 0 Then 1 Else 0 End) as CanceledSubscriptions
 From [dbo].[Customer_Dataset]
 ```
 
-
-  3. FUNCTIONS
-   Calculate the average subscription duration and identify the most popular subscription types.
-
-```
-
 ### DASHBOARD OVERVIEW
-```
 EXCEL VISUALIZATION
 PIVOT TABLES
 ![20241105_152242](https://github.com/user-attachments/assets/675b18f9-636e-4b4a-9f36-94560eb62560)
 
 CHARTS
 ![20241105_151511](https://github.com/user-attachments/assets/06b58c59-9f36-4842-b5c8-745881a7b7b3)
-![20241105_151618](https://github.com/user-attachments/assets/434397f1-96ca-4b45-b29e-7c69d44d883f)
 
+![20241105_151618](https://github.com/user-attachments/assets/434397f1-96ca-4b45-b29e-7c69d44d883f)
 
 SQL RESULTS
 ![20241108_012325](https://github.com/user-attachments/assets/d47f9847-944a-4f29-b795-1587a56945fc)
-![20241108_012451](https://github.com/user-attachments/assets/0f757757-2dab-4ec8-aa3c-4aca931448ff)
-![20241108_012625](https://github.com/user-attachments/assets/3172aa9d-5dad-4d67-8df2-70c5a2663982)
-![20241108_012724](https://github.com/user-attachments/assets/4bd07add-e6d8-4e84-89b3-0bfb61329647)
-![20241108_012819](https://github.com/user-attachments/assets/a4e725ab-88bd-4201-8fe2-79f55a049c24)
-![20241108_013323](https://github.com/user-attachments/assets/f2c6f3fb-5ed2-44d7-acce-8854ca6455f2)
-![20241108_013524](https://github.com/user-attachments/assets/109c69cd-f753-4d02-9bd0-0e3bcda0f587)
 
+![20241108_012451](https://github.com/user-attachments/assets/0f757757-2dab-4ec8-aa3c-4aca931448ff)
+
+![20241108_012625](https://github.com/user-attachments/assets/3172aa9d-5dad-4d67-8df2-70c5a2663982)
+
+![20241108_012724](https://github.com/user-attachments/assets/4bd07add-e6d8-4e84-89b3-0bfb61329647)
+
+![20241108_012819](https://github.com/user-attachments/assets/a4e725ab-88bd-4201-8fe2-79f55a049c24)
+
+![20241108_013323](https://github.com/user-attachments/assets/f2c6f3fb-5ed2-44d7-acce-8854ca6455f2)
+
+![20241108_013524](https://github.com/user-attachments/assets/109c69cd-f753-4d02-9bd0-0e3bcda0f587)
 POWER BI
 ![IMG-20241106-WA0008](https://github.com/user-attachments/assets/8b1ccb94-e18c-41c0-bef0-30c655bda24a)
+
 
 ### DATA ANALYSIS AND INSIGHT GENERATION
 ```
@@ -185,7 +184,11 @@ Each region has a relatively balanced share of the total revenue, with the
 differences between them being quite small (ranging from 16.8M to 16.9M).
 This suggests that while the regions are contributing similarly,
 there is no dominant regional performance or major disparity in sales.
+
+- TOP TEN CUSTOMERS
+Liam has the highest revenue at 3,437,444.
 ```
+
 ### CONCLUSION
 ```
 Basic Subscription accounts for 49.9% of total revenue, making it the dominant revenue stream.
@@ -198,6 +201,20 @@ Balanced Revenue Distribution: The revenue distribution across regions is fairly
 which is a positive indicator of market penetration across all areas. There is no single
 region that outperforms others by a large margin, meaning that each region is generating substantial revenue.
 
-###RECOMMENDATION
+Overall Contribution: Each individual contributes nearly equally to the overall revenue,
+which suggests that the team or group is functioning well together.
 ```
-Opportunities for Growth: Despite the balanced revenue, there could be opportunities to optimize regional strategies to increase market share and drive further growth in each region. For instance, localized marketing campaigns or product offerings tailored to specific regional preferences could help boost sales in areas with slightly lower performance.
+
+### RECOMMENDATION
+```
+- Evaluate Pricing Structure: Review the pricing structure of each subscription tier to ensure it is
+  competitive and reflects the value provided. If Premium or Standard subscriptions are underperforming
+  relative to their potential, consider introducing flexible pricing or bundling options that make higher tiers more accessible.
+  
+- Opportunities for Growth: Despite the balanced revenue, there could be opportunities
+ to optimize regional strategies to increase market share and drive further growth in each region. 
+
+- Replicate Liam's Success: Since Liam has generated the highest revenue, investigate any factors that
+could have contributed to his success. It could be related to his strategy, customer relationships,
+or specific product offerings. Share these insights with other team members to help them improve their own performance.
+```
